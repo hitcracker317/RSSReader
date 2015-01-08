@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCD3CBC21A53F5D300806B40 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD3CBC11A53F5D300806B40 /* RSSItem.m */; };
+		DCD3CBC51A53F5E300806B40 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD3CBC41A53F5E300806B40 /* RSSChannel.m */; };
+		DCD739E11A5954980079E196 /* RSSChannelListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD739D81A5954980079E196 /* RSSChannelListController.m */; };
+		DCD739E21A5954980079E196 /* RSSItemListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD739DA1A5954980079E196 /* RSSItemListController.m */; };
+		DCD739E31A5954980079E196 /* RSSContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD739DC1A5954980079E196 /* RSSContentController.m */; };
+		DCD739E41A5954980079E196 /* RSSFeedListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD739DE1A5954980079E196 /* RSSFeedListController.m */; };
+		DCD739E51A5954980079E196 /* RSSFeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD739E01A5954980079E196 /* RSSFeedController.m */; };
 		DCEBD3EF1A52F79E005A5853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD3EE1A52F79E005A5853 /* main.m */; };
 		DCEBD3F21A52F79E005A5853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD3F11A52F79E005A5853 /* AppDelegate.m */; };
 		DCEBD3F51A52F79E005A5853 /* RSSReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD3F31A52F79E005A5853 /* RSSReader.xcdatamodeld */; };
@@ -15,6 +22,7 @@
 		DCEBD3FD1A52F79E005A5853 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEBD3FC1A52F79E005A5853 /* Images.xcassets */; };
 		DCEBD4001A52F79E005A5853 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEBD3FE1A52F79E005A5853 /* LaunchScreen.xib */; };
 		DCEBD40C1A52F79F005A5853 /* RSSReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD40B1A52F79F005A5853 /* RSSReaderTests.m */; };
+		DCEBD4171A52F84C005A5853 /* RSSChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD4161A52F84C005A5853 /* RSSChannelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCD3CBC01A53F5D300806B40 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		DCD3CBC11A53F5D300806B40 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
+		DCD3CBC31A53F5E300806B40 /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
+		DCD3CBC41A53F5E300806B40 /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
+		DCD739D71A5954980079E196 /* RSSChannelListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannelListController.h; sourceTree = "<group>"; };
+		DCD739D81A5954980079E196 /* RSSChannelListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannelListController.m; sourceTree = "<group>"; };
+		DCD739D91A5954980079E196 /* RSSItemListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItemListController.h; sourceTree = "<group>"; };
+		DCD739DA1A5954980079E196 /* RSSItemListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItemListController.m; sourceTree = "<group>"; };
+		DCD739DB1A5954980079E196 /* RSSContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSContentController.h; sourceTree = "<group>"; };
+		DCD739DC1A5954980079E196 /* RSSContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSContentController.m; sourceTree = "<group>"; };
+		DCD739DD1A5954980079E196 /* RSSFeedListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedListController.h; sourceTree = "<group>"; };
+		DCD739DE1A5954980079E196 /* RSSFeedListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedListController.m; sourceTree = "<group>"; };
+		DCD739DF1A5954980079E196 /* RSSFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedController.h; sourceTree = "<group>"; };
+		DCD739E01A5954980079E196 /* RSSFeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedController.m; sourceTree = "<group>"; };
 		DCEBD3E91A52F79E005A5853 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEBD3ED1A52F79E005A5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEBD3EE1A52F79E005A5853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +64,8 @@
 		DCEBD4051A52F79F005A5853 /* RSSReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEBD40A1A52F79F005A5853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEBD40B1A52F79F005A5853 /* RSSReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSReaderTests.m; sourceTree = "<group>"; };
+		DCEBD4151A52F84C005A5853 /* RSSChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannelManager.h; sourceTree = "<group>"; };
+		DCEBD4161A52F84C005A5853 /* RSSChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCD3CBBE1A53F5AE00806B40 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DCEBD4151A52F84C005A5853 /* RSSChannelManager.h */,
+				DCEBD4161A52F84C005A5853 /* RSSChannelManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		DCD3CBBF1A53F5BE00806B40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3CBC01A53F5D300806B40 /* RSSItem.h */,
+				DCD3CBC11A53F5D300806B40 /* RSSItem.m */,
+				DCD3CBC31A53F5E300806B40 /* RSSChannel.h */,
+				DCD3CBC41A53F5E300806B40 /* RSSChannel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DCD739E61A59549C0079E196 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCD739D71A5954980079E196 /* RSSChannelListController.h */,
+				DCD739D81A5954980079E196 /* RSSChannelListController.m */,
+				DCD739D91A5954980079E196 /* RSSItemListController.h */,
+				DCD739DA1A5954980079E196 /* RSSItemListController.m */,
+				DCD739DB1A5954980079E196 /* RSSContentController.h */,
+				DCD739DC1A5954980079E196 /* RSSContentController.m */,
+				DCD739DD1A5954980079E196 /* RSSFeedListController.h */,
+				DCD739DE1A5954980079E196 /* RSSFeedListController.m */,
+				DCD739DF1A5954980079E196 /* RSSFeedController.h */,
+				DCD739E01A5954980079E196 /* RSSFeedController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		DCEBD3E01A52F79E005A5853 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,9 @@
 			children = (
 				DCEBD3F01A52F79E005A5853 /* AppDelegate.h */,
 				DCEBD3F11A52F79E005A5853 /* AppDelegate.m */,
+				DCD739E61A59549C0079E196 /* ViewController */,
+				DCD3CBBE1A53F5AE00806B40 /* Manager */,
+				DCD3CBBF1A53F5BE00806B40 /* Model */,
 				DCEBD3F61A52F79E005A5853 /* ViewController.h */,
 				DCEBD3F71A52F79E005A5853 /* ViewController.m */,
 				DCEBD3F91A52F79E005A5853 /* Main.storyboard */,
@@ -222,10 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD739E41A5954980079E196 /* RSSFeedListController.m in Sources */,
+				DCD3CBC51A53F5E300806B40 /* RSSChannel.m in Sources */,
 				DCEBD3F51A52F79E005A5853 /* RSSReader.xcdatamodeld in Sources */,
+				DCD739E31A5954980079E196 /* RSSContentController.m in Sources */,
+				DCEBD4171A52F84C005A5853 /* RSSChannelManager.m in Sources */,
 				DCEBD3F21A52F79E005A5853 /* AppDelegate.m in Sources */,
 				DCEBD3F81A52F79E005A5853 /* ViewController.m in Sources */,
 				DCEBD3EF1A52F79E005A5853 /* main.m in Sources */,
+				DCD739E21A5954980079E196 /* RSSItemListController.m in Sources */,
+				DCD739E11A5954980079E196 /* RSSChannelListController.m in Sources */,
+				DCD739E51A5954980079E196 /* RSSFeedController.m in Sources */,
+				DCD3CBC21A53F5D300806B40 /* RSSItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +488,7 @@
 				DCEBD4111A52F79F005A5853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCEBD4121A52F79F005A5853 /* Build configuration list for PBXNativeTarget "RSSReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +497,7 @@
 				DCEBD4141A52F79F005A5853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

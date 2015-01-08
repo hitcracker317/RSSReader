@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "RSSChannelManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //初期化処理
+    //保存したデータの読み込み
+    //[[RSSChannelManager sharedInstance] load];
     return YES;
 }
 
@@ -39,8 +43,9 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    // Saves changes in the application's managed object context before the application terminates.
+    //終了直前の後片付け処理
+    //データの保存処理
+    //[[RSSChannelManager sharedInstance] save];
     [self saveContext];
 }
 
